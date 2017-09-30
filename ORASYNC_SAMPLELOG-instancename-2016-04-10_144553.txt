@@ -1,0 +1,28 @@
+2016-04-10 14:45:53,679 Started
+2016-04-10 14:45:53,679 db is instancename
+2016-04-10 14:45:53,683 Starting new HTTP connection (1): 10.1.2.200
+2016-04-10 14:45:53,870 "GET /api/rest/volumes?name=datavol HTTP/1.1" 200 None
+2016-04-10 14:45:53,873 Starting new HTTP connection (1): 10.1.2.200
+2016-04-10 14:45:54,043 "GET /api/rest/volumes?name=archivevol HTTP/1.1" 200 None
+2016-04-10 14:45:54,045 entering hot backup
+2016-04-10 14:45:55,098 response for SQL: 
+Database altered.
+
+
+2016-04-10 14:46:00,099 creating snapshot for data
+2016-04-10 14:46:00,103 Starting new HTTP connection (1): 10.1.2.200
+2016-04-10 14:46:00,912 "POST /api/rest/volumes HTTP/1.1" 201 None
+2016-04-10 14:46:05,914 ending hot backup mode
+2016-04-10 14:46:07,609 response for SQL: 
+Database altered.
+
+
+2016-04-10 14:46:12,615 switching redo log
+2016-04-10 14:46:12,814 response for SQL: 
+System altered.
+
+
+2016-04-10 14:46:17,815 creating snapshot for archive
+2016-04-10 14:46:17,820 Starting new HTTP connection (1): 10.1.2.200
+2016-04-10 14:46:17,910 "POST /api/rest/volumes HTTP/1.1" 201 None
+2016-04-10 14:46:17,913 Done!
