@@ -1,6 +1,6 @@
 # Oracle Application Aware Snapshot script
 ## Overview
-this procedure, written in Python for LADPC, can be used to perform application aware snapshot for Oracle environment.
+this procedur is used to perform application aware snapshot for Oracle environment.
 it contains two scripts:
 ora_sync.py - perform oracle hot backup and snapshot.
 remove_old_snaps - remove old snaps according to retention policy
